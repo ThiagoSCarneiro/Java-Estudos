@@ -1,9 +1,6 @@
-package Generics.implementacao;
-
-import Generics.Interfaces.Valor;
+package com.thiagodasilva.generics.implementacao;
 
 import java.util.Collection;
-import java.util.Collections;
 
 public class Organizadora<T, E extends Collection<T>>{
 

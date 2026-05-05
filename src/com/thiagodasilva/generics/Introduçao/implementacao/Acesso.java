@@ -1,6 +1,6 @@
-package Generics.implementacao;
+package com.thiagodasilva.generics.implementacao;
 
-import Generics.Interfaces.Pair;
+import com.thiagodasilva.generics.Interfaces.Pair;
 
     public class Acesso<K,V> implements Pair<K,V> {
     private K chave;

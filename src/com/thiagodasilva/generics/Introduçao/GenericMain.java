@@ -1,4 +1,4 @@
-package Generics;
+package com.thiagodasilva.generics;
 
 /*
         Conveção de paramentro Generics
@@ -10,10 +10,10 @@ package Generics;
     S, U, V etc. - 2o, 3o, 4o tipos
     */
 
-import Generics.implementacao.Acesso;
-import Generics.domain.Box;
-import Generics.implementacao.Calculadora;
-import Generics.implementacao.Organizadora;
+import com.thiagodasilva.generics.implementacao.Acesso;
+import com.thiagodasilva.domain.Box;
+import com.thiagodasilva.generics.implementacao.Calculadora;
+import com.thiagodasilva.generics.implementacao.Organizadora;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

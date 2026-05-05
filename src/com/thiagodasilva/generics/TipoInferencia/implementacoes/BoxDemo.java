@@ -1,6 +1,6 @@
-package Generics.TipoInferencia.implementacoes;
+package com.thiagodasilva.TipoInferencia.implementacoes;
 
-import Generics.domain.Box;
+import com.thiagodasilva.domain.Box;
 
 public class BoxDemo {
     public static <U> void addBox(U u,

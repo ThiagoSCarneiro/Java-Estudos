@@ -1,4 +1,4 @@
-package Generics.wildcards;
+package com.thiagodasilva.wildcards;
 
 import java.util.Arrays;
 import java.util.List;

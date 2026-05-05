@@ -1,4 +1,4 @@
-package Generics.domain;
+package com.thiagodasilva.domain;
 
 public class Box<T>{
 

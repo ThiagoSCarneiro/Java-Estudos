@@ -1,7 +1,7 @@
-package Generics.TipoInferencia;
+package com.thiagodasilva.TipoInferencia;
 
-import Generics.TipoInferencia.implementacoes.BoxDemo;
-import Generics.domain.Box;
+import com.thiagodasilva.TipoInferencia.implementacoes.BoxDemo;
+import com.thiagodasilva.domain.Box;
 
 import java.util.ArrayList;
 

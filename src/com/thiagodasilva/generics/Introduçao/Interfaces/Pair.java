@@ -1,4 +1,4 @@
-package Generics.Interfaces;
+package com.thiagodasilva.generics.Interfaces;
 
 public interface Pair<K,V>{
    public K getChave();

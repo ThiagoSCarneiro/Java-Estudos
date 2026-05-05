@@ -1,6 +1,6 @@
-package Generics.implementacao;
+package com.thiagodasilva.generics.implementacao;
 
-import Generics.Interfaces.OperacoesAritmeticas;
+import com.thiagodasilva.generics.Interfaces.OperacoesAritmeticas;
 
 public class Calculadora implements OperacoesAritmeticas {
 
