@@ -11,7 +11,7 @@ package Generics;
     */
 
 import Generics.implementacao.Acesso;
-import Generics.implementacao.Box;
+import Generics.domain.Box;
 import Generics.implementacao.Calculadora;
 import Generics.implementacao.Organizadora;
 
