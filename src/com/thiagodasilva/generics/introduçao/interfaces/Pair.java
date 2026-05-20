@@ -1,4 +1,4 @@
-package com.thiagodasilva.generics.Interfaces;
+package com.thiagodasilva.generics.introduçao.interfaces;
 
 public interface Pair<K,V>{
    public K getChave();

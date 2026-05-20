@@ -1,4 +1,4 @@
-package com.thiagodasilva.estruturadados.collections.queue;
+package com.thiagodasilva.estruturadados.queue;
 
 import java.util.LinkedList;
 import java.util.PriorityQueue;

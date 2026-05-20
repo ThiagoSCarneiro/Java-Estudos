@@ -1,4 +1,4 @@
-package com.thiagodasilva.estruturadados.collections.stack;
+package com.thiagodasilva.estruturadados.stack;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package com.thiagodasilva.estruturadados.collections.queue;
+package com.thiagodasilva.estruturadados.queue;
 
 import com.thiagodasilva.estruturadados.collections.EstrutraEstatica;
 

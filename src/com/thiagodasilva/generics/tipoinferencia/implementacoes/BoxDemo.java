@@ -1,4 +1,4 @@
-package com.thiagodasilva.TipoInferencia.implementacoes;
+package com.thiagodasilva.generics.tipoinferencia.implementacoes;
 
 import com.thiagodasilva.domain.Box;
 
