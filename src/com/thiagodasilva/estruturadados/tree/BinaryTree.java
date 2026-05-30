@@ -1,63 +1,48 @@
 package com.thiagodasilva.estruturadados.tree;
 
-public class BinaryTree {
+public class BinaryTree<T> {
 	
-	private Object node;
-	private Object rightChield;
-	private Object leftChield;
+	private T value;
+	private BinaryTree<T> rightChild;
+	private BinaryTree<T> leftChild;
 	
-	public BinaryTree(Object node) {
-		this.node = node;
-		this.leftChield = null;
-		this.rightChield = null;
+	public BinaryTree(T value) {
+		this.value = value;
+		this.leftChild = null;
+		this.rightChild = null;
 	}
 	
 	
-	public Object getNode() {
-		return node;
+	public T getValue() {
+		return value;
 	}
 
-	public void setNode(Object node) {
-		this.node = node;
+	public void setNode( T value) {
+		this.value = value;
 	}
 
-	public Object getRightChield() {
-		return rightChield;
+	public BinaryTree<T> getRightChild() {
+		return rightChild;
 	}
 
-	public void setRightChield(BinaryTree tree, Object value) {
-		if(tree.getRightChield() == null) {
-			this.rightChield = value;
-		}else {
-			BinaryTree newNode = new BinaryTree(value);
-			newNode.setRightChield(tree, rightChield);
-			tree.setRightChield(newNode, newNode.node);
-		}
-		
+	public void setRightChild(BinaryTree<T> child) {
+		this.rightChild = child;
 	}
 
-	public Object getLeftChield() {
-		return leftChield;
+	public BinaryTree<T> getLeftChild() {
+		return leftChild;
 	}
 
-	public void setLeftChield(BinaryTree tree, Object value) {
-		if(tree.getLeftChield() == null) {
-			this.leftChield = value;
-		}else {
-			BinaryTree newNode = new BinaryTree(value);
-			newNode.setLeftChield(tree, leftChield);
-			tree.setLeftChield(newNode, newNode.node);
-		}
+	public void setLeftChild(BinaryTree<T> child) {
+		this.leftChild = child;
 	}
 
 
 	@Override
-	public String toString() {
-		return "BinaryTree [node=" + node + ", leftChield=" + leftChield + ", rightChield=" + rightChield +"]";
-	}
-
-
-	
-	
+    public String toString() {
+        return "BinaryTree [value=" + value + 
+               ", leftChild=" + (leftChild != null ? leftChild.getValue() : "null") + 
+               ", rightChild=" + (rightChild != null ? rightChild.getValue() : "null") + "]";
+    }
 
 }
