@@ -1,45 +1,49 @@
 package com.thiagodasilva.estruturadados.tree;
 
 public class DepthFirstSearch {
-	
-	public static <T> void preOrder(BinaryTree<T> tree) {
-		
+
+	public static <T extends Comparable<T>> void preOrder(BinaryTree<T> tree) {
 		if(tree == null) {
 			return;
 		}
-		
+
 		System.out.print(tree.getValue()+ " ");
-		
+
 		preOrder(tree.getLeftChild());
-		
+
 		preOrder(tree.getRightChild());
 	}
-	
-	
-	public static <T> void inOrder(BinaryTree<T> tree) {
+
+	public static <T extends Comparable<T>> void inOrder(BinaryTree<T> tree) {
+		if(tree == null) {
+			return;
+		}
+
 		if(tree.getLeftChild() != null){
 			inOrder(tree.getLeftChild());
 		}
-		
+
 		System.out.print(tree.getValue() + " ");
-		
+
 		if(tree.getRightChild() != null){
 			inOrder(tree.getRightChild());
 		}
 	}
-	
-	public static <T> void postOrder(BinaryTree<T> tree) {
-		if(tree.getLeftChild() != null){
-			inOrder(tree.getLeftChild());
+
+	public static <T extends Comparable<T>> void postOrder(BinaryTree<T> tree) {
+		if(tree == null) {
+			return;
 		}
-		
-		
+
+		if(tree.getLeftChild() != null){
+			postOrder(tree.getLeftChild());
+		}
+
 		if(tree.getRightChild() != null){
-			inOrder(tree.getRightChild());
+			postOrder(tree.getRightChild());
 		}
 
 		System.out.print(tree.getValue() + " ");
 	}
-	
 
 }
