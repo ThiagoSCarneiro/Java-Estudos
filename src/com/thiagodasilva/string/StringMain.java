@@ -20,11 +20,11 @@ public class StringMain {
 
         System.out.println("");
 
-        System.out.println(value.toUpperCase() +  " = toUpperCase Tudo em caixa alta");
-        System.out.println(value.toLowerCase() +  " = toLowerCase Tudo em caixa baixa \n");
+        System.out.println(value.toUpperCase() + " = toUpperCase Tudo em caixa alta");
+        System.out.println(value.toLowerCase() + " = toLowerCase Tudo em caixa baixa \n");
 
         System.out.println(value.contains("j") + " = contain Verificar se tem");
-        System.out.println(value.indexOf(";")+ " = indexOf coloca em um array e verifica a posicao \n");
+        System.out.println(value.indexOf(";") + " = indexOf coloca em um array e verifica a posicao \n");
 
         System.out.println(value);
 
@@ -35,7 +35,7 @@ public class StringMain {
         System.out.println(value.isBlank() + " =  isBlank verifica se esta vazia mesmo com espaco (   )");
         System.out.println(value.trim() + " = trim lima os espaco em branco \n");
 
-        System.out.println(value.substring(0,4) + " = substring cria uma nova string a partir dos index\n");
+        System.out.println(value.substring(0, 4) + " = substring cria uma nova string a partir dos index\n");
 
     }
 }
